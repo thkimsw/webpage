@@ -1,0 +1,11 @@
+@import "common.css";
+img{
+	width:250px;
+	height:200px;
+	margin-right: 3%;
+	display:inline-block;
+}
+#imgs{
+	margin-left: 21%;
+	margin-top: 4%;
+}

@@ -1,0 +1,14 @@
+@import "common.css";
+#ble{
+	width:400px;
+	height: 230px;
+}
+
+#scd{
+	width:400px;
+	height: 200px;
+	margin-top: 4%;
+}
+#super_div{
+	margin-left: 7%;
+}

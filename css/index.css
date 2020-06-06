@@ -1,0 +1,25 @@
+@import "common.css";
+#bottom{
+ position: static;
+ margin-top: 20px;
+ height: 100px; 
+ margin-left:30%;
+}
+
+#map_info{
+ display: inline-block;
+ position: static;
+ height: 100px; 
+ vertical-align: super;
+}
+#map_img{
+ margin-left: 50px;
+ position: static;
+ height: 100px; 
+}
+#HCI{
+width:400px;
+height: 300px;
+margin-top: 5%;
+margin-left: 42%;
+}

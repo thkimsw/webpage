@@ -1,0 +1,66 @@
+#hidden_menubar {
+ position: static;
+ width: 100%;
+ height: 100px; 
+ text-align: left;
+    color: blue;
+}
+#login_btn{
+    font-size:13px;
+    display: inline-block;
+    background-color: white;
+    float:right;
+}
+#enter_btn{
+    font-size:13px;
+    display: inline-block;
+    background-color: white;
+    float:right;
+}
+.menu_btn{
+    font-size:15px;
+    display: inline;
+    border:0;
+    outline: 0;
+    background-color: white;
+            color: blue;
+}
+#side_bar{
+    position: fixed;
+    left:90%;
+    top:20%;
+    width :170px;
+    height:650px;
+    border-color: black;
+    border-width:1px;
+    border-style:solid;
+     /*이후 숨김 추가*/
+}
+#center{
+ margin-left: 3%;
+ width:85%;
+ height: 800px;
+}
+
+#bottom{
+ position: static;
+ margin-top: 20px;
+ height: 100px; 
+ margin-left:30%;
+}
+
+#map_info{
+ display: inline-block;
+ position: static;
+ height: 100px; 
+ vertical-align: super;
+}
+#map_img{
+ margin-left: 50px;
+ position: static;
+ height: 100px;
+}
+.title{
+        text-align: center;
+        color:blue;      
+    }

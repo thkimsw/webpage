@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+  <style>
+  @import "./css/board.css";
+</style>
+</head>
+<body>
+  <div id="hidden_menubar">
+    <h2>HCI 연구실</h2>
+    <hr>
+    <button type=button class="menu_btn" onclick="location.href='index.html'">메인</button>
+    <button type=button class="menu_btn" onclick="location.href='board.html'">게시판</button>
+    <button type=button class="menu_btn" onclick="location.href='member.html'">구성원</button>
+    <button type=button class="menu_btn" onclick="location.href='project.html'">연구</button>
+     <button type=button id="enter_btn" onclick="location.href='asign.html'">asign</button> 
+      <button type=button id="login_btn" onclick="location.href='login.html'">Login</button> 
+      <button type=button class="menu_btn" onclick="location.href='lunch.html'">식단</button>
+  </div>
+   <div class="title">
+      <h1>
+        Human Computer Interface
+      </h1>
+    </div>
+  <div id="center">
+    <h1>자유 게시판</h1>
+    <hr>
+    <div id="main">
+    <table border="1">
+      <tr><th id="num">번호</th><th id="name">제목</th><th id="who">작성자</th>
+      <th id="day">날짜</th><th id="see">조회수</th><th id="re">댓글수</th>
+      </tr>
+      <tr><td></td><td></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr><td></td><td></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr><td></td><td></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr><td></td><td></td><td></td><td></td><td></td><td></td>
+      </tr>
+    </table>
+  </div>
+  <div id="buttonset">
+    <table id="buttonset">
+    <tr>
+    <td><button type="submit"><이전</button></td>
+    <td><button type="submit">1</button></td>
+    <td><button type="submit">2</button></td>
+    <td><button type="submit">3</button></td>
+    <td><button type="submit">4</button></td>
+    <td><button type="submit">5</button></td>
+    <td><button type="submit">다음></button></td>
+    </tr>
+    </table>
+  </div>
+  <div id="search">
+    <table>
+    </table>
+  </div>
+  </div>
+    <div id="side_bar">
+  </div>
+   <div id="bottom">
+  <div id="map_info">
+   <h5>대전광역시 대덕구 오정동 한남로 70</h5>
+    <h5>9C3C+QF 대전광역시</h5>
+    <h5>관리자 010-xxxx-xxxx</h5>
+  </div>
+  <img id="map_img" src="./src/img/map.PNG"  onclick="location.href='http://www.hannam.ac.kr/about/about_1001_02.html'">
+  </div>
+</body>

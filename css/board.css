@@ -1,0 +1,43 @@
+@import "common.css";
+
+		#main{
+			width:90%;
+			margin-left:5%;
+			margin-right: 5%;
+			height: 50%;
+			border:0px;
+			border-style: solid;
+			border-color: black;
+		}
+		table{
+			width:100%;
+		}
+		#buttonset{
+			width:50%;
+			margin-left:auto;
+			margin-right:auto;
+		}
+		tr{
+			height : 30px;
+		}
+		#num{
+			width:10%;
+		}
+		#name{
+			width:40px;
+		}
+		#who{
+			width:10%;
+		}
+		#day{width:10%;}
+		#see{width:10%;}
+		#re{width:10%;}
+		#center{
+ margin-left: 3%;
+ width:85%;
+ height: 800px;
+ border-color: black;
+ border-width:1px;
+ border-style:solid;
+ padding:10px;
+}
