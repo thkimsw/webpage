@@ -39,14 +39,20 @@
 #center{
  margin-left: 3%;
  width:85%;
- height: 800px;
+ height: 1200px;
+ border-style:solid;
+ border-width:1px;
+ border-color:black;
 }
 
 #bottom{
  position: static;
  margin-top: 20px;
- height: 100px; 
- margin-left:30%;
+ height: 150px; 
+ border-style:solid;
+ border-width:1px;
+ border-color:black;
+ text-align: center;
 }
 
 #map_info{

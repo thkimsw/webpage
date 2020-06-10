@@ -5,7 +5,16 @@ img{
 	margin-right: 3%;
 	display:inline-block;
 }
-#imgs{
-	margin-left: 21%;
+#up_img{
+	margin-left: 30px;
 	margin-top: 4%;
+	display: inline-block;
+}
+#down_img{
+	margin-left: 30px;
+	margin-top: 4%;
+	display: inline-block;
+}
+#frame{
+	margin-left: 200px;
 }

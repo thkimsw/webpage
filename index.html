@@ -5,28 +5,45 @@
   <style type="text/css">
   @import "./css/index.css";
   </style>
+  <script>
+    //@import "./script/index.js"
+  function init(){
+  var myImage=document.getElementById("HCI");
+  var imageArray=["./src/img/3.png","./src/img/1.png","./src/img/2.png","./src/img/4.png"];
+  var imageIndex=0;
+
+  function changeImage(){
+  myImage.setAttribute("src",imageArray[imageIndex]);
+  imageIndex++;
+  if(imageIndex>=imageArray.length){
+    imageIndex=0;
+  }
+}
+setInterval(changeImage,2000);
+}
+  </script>
 </head>
-<body>
+<body onload="init().setInterval(changeImage,2000);">
   <div id="hidden_menubar">
-    <h2>HCI 연구실</h2>
+    <h1>HCI 연구실</h1>
     <hr>
     <button type=button class="menu_btn" onclick="location.href='index.html'">메인</button>
     <button type=button class="menu_btn" onclick="location.href='board.html'">게시판</button>
     <button type=button class="menu_btn" onclick="location.href='member.html'">구성원</button>
     <button type=button class="menu_btn" onclick="location.href='project.html'">연구</button>
-     <button type=button id="enter_btn" onclick="location.href='asign.html'">asign</button> 
-      <button type=button id="login_btn" onclick="location.href='login.html'">Login</button> 
-      <button type=button class="menu_btn" onclick="location.href='lunch.html'">식단</button>
+    <button type=button id="enter_btn" onclick="location.href='asign.html'">asign</button> 
+    <button type=button id="login_btn" onclick="location.href='login.html'">Login</button> 
+    <button type=button class="menu_btn" onclick="location.href='lunch.html'">식단</button>
 
   </div>
   <div class="title">
       <h1>
          Human Computer Interface
       </h1>
-
-    </div>
+  </div>
   <div id="center">
-    <img id="HCI" src="./src/img/HCI.JPG">
+    <img id="HCI" src="./src/img/4.png">
+    </div>
   </div>
   <div id="side_bar">
   </div>

@@ -1,14 +1,38 @@
 @import "common.css";
 #ble{
 	width:400px;
-	height: 230px;
+	height: 300px;
+	border-style:solid;
+	border-width:1px;
+	margin-top: 5%;
+ 	border-color:black;
 }
 
 #scd{
 	width:400px;
-	height: 200px;
-	margin-top: 4%;
+	height: 300px;
+	border-style:solid;
+	border-width:1px;
+	margin-top: 5%;
+ 	border-color:black;
+ 	display: inline-block;
 }
-#super_div{
-	margin-left: 7%;
+
+.txt{
+	width:400px;
+	height: 200px;
+	text-align: center;
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
+
+}
+
+.box{
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
+}
+.frame{
+	float: left;
 }

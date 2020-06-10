@@ -33,11 +33,10 @@
 		#see{width:10%;}
 		#re{width:10%;}
 		#center{
- margin-left: 3%;
- width:85%;
- height: 800px;
- border-color: black;
- border-width:1px;
- border-style:solid;
- padding:10px;
-}
+		 margin-left: 3%;
+		 width:85%;
+		 height: 800px;
+		 border-color: black;
+		 border-width:1px;
+		 border-style:solid;
+		 padding:10px; }
